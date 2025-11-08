@@ -15,6 +15,7 @@ public class Monitor.Statusbar : Granite.Bin {
         };
 
         cpu_usage_label = new Gtk.Label (_("Calculating…")) {
+            margin_start = 6,
             width_chars = 4,
             xalign = 0
         };
